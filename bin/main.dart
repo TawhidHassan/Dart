@@ -1,12 +1,23 @@
 import 'package:dartPrograme/dartPrograme.dart' as dartPrograme;
 
-void main(List<String> arguments) {
- //if //else
-  var sales="sifat";
- priny_x("ss",);
+
+class student{
+  String studentname;
+  int sid;
+  void st(String name)
+  {
+    if(sid>2)
+      {
+        print(studentname);
+      }
+  }
+
 }
-priny_x(String ss,[int tvv]){
-  print(ss);
-  print(tvv);
+void main(List<String> arguments) {
+
+  var stu=student();
+  String stx= stu.studentname="sifat";
+  stu.sid=20;
+  stu.st(stx);
 }
 
